@@ -5,8 +5,8 @@ int main() {
     setlocale(LC_ALL, "rus");
     std::string name;
 
-    std::cout << "Ââåäèòå âàøå èìÿ: ";
+    std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ð°ÑˆÐµ Ð¸Ð¼Ñ: ";
     std::getline(std::cin, name);
 
-    std::cout << "Ïðèâåò, " << name << "!" << std::endl;
+    std::cout << "ÐŸÑ€Ð¸Ð²ÐµÑ‚, " << name << "!" << std::endl;
 }
